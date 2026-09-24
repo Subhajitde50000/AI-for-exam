@@ -1,0 +1,22 @@
+pip install transformers torch accelerate
+
+https://huggingface.co/microsoft/Phi-4-mini-instruct
+
+📄 config.json
+📄 generation_config.json
+📄 special_tokens_map.json
+📄 tokenizer.json
+📄 tokenizer_config.json
+📄 model.safetensors.index.json        ← NEW (tells which part has what)
+📄 model-00001-of-00002.safetensors    ← Part 1 (~2 GB)
+📄 model-00002-of-00002.safetensors    ← Part 2 (~1 GB)
+
+C:\phi4-mini\
+    ├── config.json
+    ├── generation_config.json
+    ├── special_tokens_map.json
+    ├── tokenizer.json
+    ├── tokenizer_config.json
+    ├── model.safetensors.index.json
+    ├── model-00001-of-00002.safetensors
+    └── model-00002-of-00002.safetensors

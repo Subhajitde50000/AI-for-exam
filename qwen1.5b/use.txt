@@ -1,0 +1,11 @@
+pip install transformers torch accelerate
+
+https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct
+
+📄 config.json                 (660 Bytes)
+📄 generation_config.json      (242 Bytes)
+📄 merges.txt                  (1.67 MB)
+📄 model.safetensors           (3.09 GB)  ← biggest, single file ✅
+📄 tokenizer.json              (7.03 MB)
+📄 tokenizer_config.json       (7.31 kB)
+📄 vocab.json                  (2.78 MB)
